@@ -1,7 +1,12 @@
 /* Place your CSS styles in this file */
 
+body{
+    margin:0px;
+    padding:0px;
+}
+
 h1 {
-    text-align: center;
+    text-align: right;
     font-family: "Source Sans Pro", sans-serif;
     font-weight: normal;
     font-size: 120px;
@@ -33,6 +38,15 @@ h3 {
     padding:0px;
 }
 
+.WhoamI{
+    text-decoration: underline;
+}
+
+.WhoamI_words{
+    margin: 15px 200px 15px 200px;
+    font-size: 20px;
+}
+
 .SecondPage{
     background-color: #e2e2fc;
     margin:0px;
@@ -46,6 +60,36 @@ h3 {
 }
 
 .FourthPage{
+    background-color: #fcfce2;
+    margin:0px;
+    padding:0px;
+}
+
+.FifthPage{
+    background-color: #e2e2fc;
+    margin:0px;
+    padding:0px;
+}
+
+.SixthPage{
+    background-color: #fcfce2;
+    margin:0px;
+    padding:0px;
+}
+
+.SeventhPage{
+    background-color: #e2e2fc;
+    margin:0px;
+    padding:0px;
+}
+
+.EighthPage{
+    background-color:#fce2ef;
+    margin:0px;
+    padding:0px;
+}
+
+.NinethPage{
     background-color: #fcfce2;
     margin:0px;
     padding:0px;
