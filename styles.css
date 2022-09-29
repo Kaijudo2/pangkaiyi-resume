@@ -1,0 +1,92 @@
+/* Place your CSS styles in this file */
+
+h1 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    font-size: 120px;
+    color: black;
+    top:100px;
+    margin:0px;
+    padding:0px;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+    color: black;
+}
+
+h3 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: black;
+}
+
+.FirstPage{
+    background-color: #e2fcef;
+    margin:0px;
+    padding:0px;
+}
+
+.SecondPage{
+    background-color: #e2e2fc;
+    margin:0px;
+    padding:0px;
+}
+
+.ThirdPage{
+    background-color: #fce2ef;
+    margin:0px;
+    padding:0px;
+}
+
+.FourthPage{
+    background-color: #fcfce2;
+    margin:0px;
+    padding:0px;
+}
+
+.EE {
+    text-align: center;
+    margin:0px;
+    padding:0px;
+    font-size: 40px;
+    font-style: italic;
+    position: relative;
+
+}
+
+.Navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 14.5px;
+}
+
+.QuickAccess {
+    float: left;
+}
+
+.QuickAccess2 {
+    float: right;
+    font-size: 20px;
+}
+
+li a {
+  display: block;
+  margin: 0px;
+  padding: 10px;
+  background-color: #E2FCEF;
+}
+
+li b {
+    display: block;
+    padding: 8px;
+    background-color: #E2FCEF;
+  }
