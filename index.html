@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv = "X-UA-Compatible" content = "ie=edge">
 
         <title>Resume</title>
@@ -15,29 +15,46 @@
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Open+Sans:ital,wght@0,400;0,500;0,600;1,300;1,400;1,500&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
 
         <script src="https://kit.fontawesome.com/c1f4385e29.js" crossorigin="anonymous"></script>
+        <video autoplay muted loop id="myVideo">
+            <source src="Videos/pexels-rostislav-uzunov-9150545.mp4" type="video/mp4">
+        </video>
     </head>
 
     <body>
+    <ul class = "Navbar">
+        <br>
+        <li class = "QuickAccess"><a href="#Education">Education</a></li>  
+        <li class = "QuickAccess"><a href="#Work_Experience">Work Experience</a></li>
+        <li class = "QuickAccess"><a href="#Projects">Projects</a></li>
+        <li class = "QuickAccess"><a href="#CCA">CCA</a></li>
+        <li class = "QuickAccess"><a href="#Awards_and_Honors">Awards and Honors</a></li>
+        <li class = "QuickAccess"><a href="#Certifications">Certification</a></li><li class = "QuickAccess"><a href="#Awards and Honors">Awards and Honors</a></li>
+        <li class = "QuickAccess"><a href="#Proficiencies">Proficiencies</a></li>
+            
+        <!-- <li class = "QuickAccess2"><b href="#Quick Access">Quick Access</a></li> -->
+        <li class = "Google_Drive"><a href="https://drive.google.com/drive/folders/1ECy-5_b0DTMTbTGAEVL5TWhHUsWsCa6v?usp=sharing" target="_blank"><i class="fa-brands fa-google-drive" style="font-size:30px;"></i>
+        <li class = "Linkedin"><a href="https://www.linkedin.com/in/kai-yi-pang-12a7131a2" target="_blank"><i class="fa-brands fa-linkedin" style="font-size:31px;"></i>            
+        <li class = "Mail"><a href="mailto:pang.kaiyi@u.nus.edu"><i class="fa-solid fa-envelope" style="font-size:30px;"></a></i>
+        <li class = "Resume"><a href="Documents/Pang Kai Yi_CV.pdf" download="Pang Kai Yi_CV" target="_blank"><i class="fa-solid fa-file-pdf" style="font-size:30px;"></a></i>
+    </ul>
     <div class = "FirstPage">
-        
         <!-- Horizontal Navigation Bar -->
-        <ul class = "Navbar">
-            <br>
-            <li class = "QuickAccess"><a href="#Education">Education</a></li>  
-            <li class = "QuickAccess"><a href="#Work Experience">Work Experience</a></li>
-            <li class = "QuickAccess"><a href="#Projects">Projects</a></li>
-            <li class = "QuickAccess"><a href="#CCA">CCA</a></li>
-            <li class = "QuickAccess"><a href="#Awards and Honors">Awards and Honors</a></li>
-            <li class = "QuickAccess"><a href="#Certifications">Certification</a></li><li class = "QuickAccess"><a href="#Awards and Honors">Awards and Honors</a></li>
-            <li class = "QuickAccess"><a href="#Proficiencies">Proficiencies</a></li>
-               
-            <!-- <li class = "QuickAccess2"><b href="#Quick Access">Quick Access</a></li> -->
-            <li class = "QuickAccess2"><i class="fa-brands fa-google-drive" style="font-size:24px;"></i>
-        </ul>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <h1>Pang Kai Yi</h1>
-        <div class = "EE">Electrical Engineer</div>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        
+
+        <br><br><br><br>
+
+        <div class="row">
+            <div class="column">
+                <img src="images/Head Photo.jpg" width="550" height="550">
+            </div>
+            <div class="column2">
+                <h1>Pang Kai Yi</h1>
+                <div class = "EE">Electrical Engineer</div>
+            </div>
+        </div>
+        
+        <br><br><br><br>
+
         <h2 class = "WhoamI">Who am I?</h2>   
         <p class = "WhoamI_words">Hello! I am Kai Yi and I am a Year 3 Electrical Engineering student in NUS. I enjoy embarking on my random self-initated projects as part of my learning. In my free time, I enjoy playing musical instruments (guitar and drums) as a way to soothe myself.</p>
         <h2 class = "WhoamI">What am I looking for?</h2>  
@@ -45,23 +62,96 @@
         <br>
     </div>
 
-    <div class = "SecondPage">
+    <div id="Education" class = "SecondPage">
         
         <h2>Education</h2>
+        <br>
+        <div class="row">
+            <div class="Educolumn1">
+                <img class="pic_NUS" src="images/nus logo_withoutbgd.png" width="160" height="90">
+                <img class="pic_IDP" src="images/IDP-removebg-preview.png" width="100" height="100">
+            </div>
+            <div class="Educolumn2">
+                <p class = "Edu_Name">National University of Singapore (NUS)</p>
+                <p class = "Edu_Title">Bachelor's in Engineering(Hons), Electrical Engineering</p>
+                <p class = "Edu_Title">2nd Major in Innovation Design Programme (IDP)</p>
+                <p class = "Edu_Year">Aug 2020 - Present</p>
+            </div>
+            <br><br>
+            <p class = "WhoamI_words">My current interest lies towards 3p</p>
+        </div>
 
+        <br><br><br><br>
 
+        <div class="row">
+            <div class="Educolumn1">
+                <img class="pic_CAPT" src="images/capt_mission_pledge_3-28ik1af-removebg-preview.png" width="160" height="90">
+            </div>
+            <div class="Educolumn2">
+                <p class = "Edu_Name">College of Alice and Peter Tan (CAPT)</p>
+                <p class = "Edu_Title">University Town College Programme</p>
+                <p class = "Edu_Year">Aug 2020 - May 2022</p>
+            </div>
+            <br><br>
+            <p class = "WhoamI_words">My current interest lies towards 3p</p>
+        </div>
+
+        <br><br>
 
     </div>
 
-    <div class = "ThirdPage">
+    <div id="#Work_Experience" class = "ThirdPage">
         <h2>Work Experience</h2>
+        <br><br>
+
+        <div class="row">
+            <div class="Educolumn1">
+                <img class="pic_Keysight" src="images/home-page-img-removebg-preview.png" width="160" height="90">
+                
+            </div>
+            <div class="Educolumn2">
+                <p class = "Edu_Name">Keysight Technologies: Automation of Black Box Testing </p>
+                <p class = "Edu_Title">Software R&D Engineer</p>
+                <p class = "Edu_Year">May 2022 - Jul 2022</p>
+            </div>
+            <br><br>
+            <p class = "WhoamI_words">My current interest lies towards 3p</p>
+        </div>
+
+        <div class="row">
+            <div class="Educolumn1">
+                <img class="pic_Skilio" src="images/Skilio-removebg-preview.png" width="200" height="120">
+                
+            </div>
+            <div class="Educolumn2">
+                <p class = "Edu_Name">Skilio Industry Immersion Programme</p>
+                <p class = "Edu_Title">Video Editor</p>
+                <p class = "Edu_Year">Jun 2020 - Jul 2020</p>
+            </div>
+            <br><br>
+            <p class = "WhoamI_words">My current interest lies towards 3p</p>
+        </div>
+
+        <div class="row">
+            <div class="Educolumn1">
+                <img class="pic_SMV" src="images/SMV-removebg-preview.png" width="140" height="70">
+                
+            </div>
+            <div class="Educolumn2">
+                <p class = "Edu_Name">SMV Marketing Group</p>
+                <p class = "Edu_Title">Sales Ambassador</p>
+                <p class = "Edu_Year">Jan 2018 - Mar 2018</p>
+            </div>
+            <br><br>
+            <p class = "WhoamI_words">My current interest lies towards 3p</p>
+        </div>
 
 
 
 
     </div>
 
-    <div class = "FourthPage">
+    <div id="Projects" class = "FourthPage">
         <h2>Projects</h2>
 
 
@@ -69,7 +159,7 @@
 
     </div>
 
-    <div class = "FifthPage">
+    <div id="Awards_and_Honors" class = "FifthPage">
         <h2>Awards and Honors</h2>  
 
 
@@ -77,14 +167,14 @@
 
     </div>
 
-    <div class = "SixthPage">
+    <div id="Certification" class = "SixthPage">
         <h2>Certification</h2>
 
 
 
 
     </div>
-    <div class = "SeventhPage">
+    <div id="Proficiencies" class = "SeventhPage">
         <h2>Proficiencies</h2>
 
 
