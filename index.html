@@ -1,217 +1,456 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pang Kai Yi</title>
 
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/c1f4385e29.js" crossorigin="anonymous"></script>
 
-        <title>Resume</title>
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
 
-        <!-- Load external CSS styles -->
-        <link rel="stylesheet" href="styles.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Open+Sans:ital,wght@0,400;0,500;0,600;1,300;1,400;1,500&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
 
-        <script src="https://kit.fontawesome.com/c1f4385e29.js" crossorigin="anonymous"></script>
-        <video autoplay muted loop id="myVideo">
-            <source src="Videos/pexels-rostislav-uzunov-9150545.mp4" type="video/mp4">
-        </video>
-    </head>
+<!-- custom cursors  -->
+<!-- <div class="cursor-1"></div>
+<div class="cursor-2"></div> -->
 
-    <body>
-    <ul class = "Navbar">
-        <br>
-        <li class = "QuickAccess"><a href="#Education">Education</a></li>  
-        <li class = "QuickAccess"><a href="#Work_Experience">Work Experience</a></li>
-        <li class = "QuickAccess"><a href="#Projects">Projects</a></li>
-        <li class = "QuickAccess"><a href="#CCA">CCA</a></li>
-        <li class = "QuickAccess"><a href="#Awards_and_Honors">Awards and Honors</a></li>
-        <li class = "QuickAccess"><a href="#Certification">Certification</a></li>
-        <li class = "QuickAccess"><a href="#Proficiencies">Proficiencies</a></li>
-            
-        <!-- <li class = "QuickAccess2"><b href="#Quick Access">Quick Access</a></li> -->
-        <li class = "Google_Drive"><a href="https://drive.google.com/drive/u/1/folders/1EKGUZyofP_qisE3C4I0QCrYpYov5GI1A" target="_blank"><i class="fa-brands fa-google-drive" style="font-size:30px;"></i>
-        <li class = "Linkedin"><a href="https://www.linkedin.com/in/kai-yi-pang-12a7131a2" target="_blank"><i class="fa-brands fa-linkedin" style="font-size:31px;"></i>            
-        <li class = "Mail"><a href="mailto:pang.kaiyi@u.nus.edu"><i class="fa-solid fa-envelope" style="font-size:30px;"></a></i>
-        <li class = "Resume"><a href="Documents/Pang Kai Yi_CV.pdf" download="Pang Kai Yi_CV" target="_blank"><i class="fa-solid fa-file-pdf" style="font-size:30px;"></a></i>
-    </ul>
-    <div class = "FirstPage">
-        <!-- Horizontal Navigation Bar -->
-        
 
-        <br><br><br><br>
+<div id="menu-bars" class="fas fa-bars"></div>
+    
+<!-- header section starts  -->
 
-        <div class="row">
-            <div class="column">
-                <img src="images/Head Photo.jpg" width="550" height="550">
+<header>
+
+    <a href="#" class="logo"> <span>Pang</span> Kai Yi </a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#service">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="follow">
+        <a href="https://drive.google.com/drive/u/1/folders/1EKGUZyofP_qisE3C4I0QCrYpYov5GI1A" target="_blank"><i class="fa-brands fa-google-drive"></i>
+        <a href="https://www.linkedin.com/in/kai-yi-pang-12a7131a2" target="_blank"><i class="fa-brands fa-linkedin"></a></i>            
+        <a href="mailto:pang.kaiyi@u.nus.edu"><i class="fa-solid fa-envelope"></a></i>
+        <a href="Documents/Pang Kai Yi_CV.pdf" download="Pang Kai Yi_CV" target="_blank"><i class="fa-solid fa-file-pdf"></a></i>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <span class="hi"> Hello! </span>
+        <h3> i am <span> Pang Kai Yi </span> </h3>
+        <p class="info"> I am an Aspiring Full Stack Developer </p>
+        <p class="text"> I am a Year 3 Electrical Engineering and Electronics (EEE) Student in NUS. While I study EEE, I am looking towards technopreneurship and have a keen interest towards full stack development to build a startup journey from.</p>
+        <a href="#about" class="btn">about me</a>
+    </div>
+
+    <div class="image">
+        <img src="images/Formal Pic.jpg" alt="">
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+<h1 class="heading"> about <span> me </span> </h1>
+
+<div class="row-1">
+
+    <div class="image">
+        <img src="images/Head Photo.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <h3> My name is Kai Yi & I am an aspiring Full Stack Developer </h3>
+        <p>I am looking for an internship that offers me with the opportunity to expand my array of programming languages, providing me with the necessary skillsets to build a website/mobile app from scratch. I am open to new challenges and projects and look forward in learning new skillsets.</p>
+        <div class="box-container">
+            <div class="box">
+                <p> <span> Age : </span> 23 </p>
+                <p> <span> Gender : </span> Male </p>
+                <p> <span> Language : </span> English, Mandarin </p>
+                <p> <span> Study: </span> National University of Singapore (NUS) </p>
             </div>
-            <div class="column2">
-                <h1>Pang Kai Yi</h1>
-                <div class = "EE">Electrical Engineer</div>
+            <div class="box">
+                <p> <span> Current Status : </span> Looking for Job </p>
+                <p> <span> Phone : </span> +65-81184639 </p>
+                <p> <span> Email : </span> pang.kaiyi@u.nus.edu </p>
+                <p> <span> Country : </span> Singapore </p>
             </div>
         </div>
-        
-        <br><br><br><br>
-
-        <h2 class = "WhoamI">Who am I?</h2>   
-        <p class = "WhoamI_words">Hello! I am Kai Yi and I am a Year 3 Electrical Engineering student in NUS. I enjoy embarking on my random self-initated projects as part of my learning. In my free time, I enjoy playing musical instruments (guitar and drums) as a way to soothe myself.</p>
-        <h2 class = "WhoamI">What am I looking for?</h2>  
-        <p class = "WhoamI_words">My current interest lies towards 3p</p>
-        <br>
+        <a href="#" class="btn">Download CV</a>
+        <a href="#" class="btn">Hire me</a>
     </div>
 
-    <div id="Education" class = "SecondPage">
-        <br>
-        <h2>Education</h2>
-        <br>
-        <div class="row">
-            <div class="Educolumn1">
-                <img class="pic_NUS" src="images/nus logo_withoutbgd.png" width="160" height="90">
-                <img class="pic_IDP" src="images/IDP-removebg-preview.png" width="100" height="100">
-            </div>
-            <div class="Educolumn2">
-                <p class = "Edu_Name">National University of Singapore (NUS)</p>
-                <p class = "Edu_Title">Bachelor's in Engineering(Hons), Electrical Engineering</p>
-                <p class = "Edu_Title">2nd Major in Innovation Design Programme (IDP)</p>
-                <p class = "Edu_Year">Aug 2020 - Present</p>
-            </div>
-            <br><br>
-            <p class = "WhoamI_words">My current interest lies towards 3p</p>
+</div>
+
+<h1 class="heading"> <span> my </span> skills </h1>
+
+<div class="row-2">
+
+    <div class="skills">
+        <div class="progress">
+            <h3> Python <span> 95% </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+        <div class="progress">
+            <h3> Web development <span> 70% </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+        <div class="progress">
+            <h3> HTML & CSS <span> 70% </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+        <div class="progress">
+            <h3> Passionate <span> 100% </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> >> 2+ </h3>
+            <p>Years of Studying</p>
+        </div>
+        <div class="box">
+            <h3> >> 3+ </h3>
+            <p>Months of Work Experience</p>
+        </div>
+        <div class="box">
+            <h3> >> 1 </h3>
+            <p>Hackathon Won</p>
+        </div>
+        <div class="box">
+            <h3> >> 4 </h3>
+            <p>Projects Completed</p>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- service section starts  -->
+
+<section class="service" id="service">
+
+    <h1 class="heading"> <span> my </span> education </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img class = "NUS_IDP" src="images/NUS x IDP (1).png" width ="300" height="120" alt="">
+            <h3>National University of Singapore</h3>
+            <p>Electrical Engineering (Hons) with 2nd Major in Innovation & Design Programe</p>
         </div>
 
-        <br><br><br><br>
-
-        <div class="row">
-            <div class="Educolumn1">
-                <img class="pic_CAPT" src="images/capt_mission_pledge_3-28ik1af-removebg-preview.png" width="160" height="90">
-            </div>
-            <div class="Educolumn2">
-                <p class = "Edu_Name">College of Alice and Peter Tan (CAPT)</p>
-                <p class = "Edu_Title">University Town College Programme</p>
-                <p class = "Edu_Year">Aug 2020 - May 2022</p>
-            </div>
-            <br><br>
-            <p class = "WhoamI_words">My current interest lies towards 3p</p>
+        <div class="box">
+            <img src="images/capt_mission_pledge_3-28ik1af-removebg-preview.png" width ="120" height="146" alt="">
+            <h3>College of Alice and Peter Tan</h3>
+            <h4>University Town College Programme</h4>
+            <p>UTCP helps students develop effective communications, strong writing skills, critical thinking and intellectual breadth and rigour to tackle complex, inter-related challenges confronting the world today.</p>
         </div>
 
-        <br><br>
-
-    </div>
-
-    <div id="Work_Experience" class = "ThirdPage">
-        <br>
-        <h2>Work Experience</h2>
-        <br><br>
-
-        <div class="row">
-            <div class="Educolumn1">
-                <img class="pic_Keysight" src="images/home-page-img-removebg-preview.png" width="160" height="90">
-                
-            </div>
-            <div class="Educolumn2">
-                <p class = "Edu_Name">Keysight Technologies: Automation of Black Box Testing </p>
-                <p class = "Edu_Title">Software R&D Engineer</p>
-                <p class = "Edu_Year">May 2022 - Jul 2022</p>
-            </div>
-            <br><br>
-            <p class = "WhoamI_words">My current interest lies towards 3p</p>
+        <div class="box">
+            <img src="images/Tampines_Junior_College_Logo-removebg-preview.png" width ="150" height="150" alt="">
+            <h3>Tampines Junior College</h3>
+            <h4>A Level</h4>
+            <p>Physics, Chemistry, Math, Economics</p>
         </div>
 
-        <div class="row">
-            <div class="Educolumn1">
-                <img class="pic_Skilio" src="images/Skilio-removebg-preview.png" width="200" height="120">
-                
+    </div>
+
+</section>
+
+<!-- service section ends -->
+
+<!-- experience section starts  -->
+
+<section class="experience" id="experience">
+
+    <h1 class="heading"> <span> my </span> experience </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="content">
+                <span> Oct 2022 - Present </span>
+                <h3>Web Developer Intern</h3>
+                <h4>Allied Technology</h4>
+                <p>- Develop website in HTML, Bootstrap and Meta Tagging</p>
+                <p>- Usage of wireframming and design for site in PSD</p>
+                <p>- Integrate frontend with backend with PHP</p>
             </div>
-            <div class="Educolumn2">
-                <p class = "Edu_Name">Skilio Industry Immersion Programme</p>
-                <p class = "Edu_Title">Video Editor</p>
-                <p class = "Edu_Year">Jun 2020 - Jul 2020</p>
-            </div>
-            <br><br>
-            <p class = "WhoamI_words">My current interest lies towards 3p</p>
         </div>
 
-        <div class="row">
-            <div class="Educolumn1">
-                <img class="pic_SMV" src="images/SMV-removebg-preview.png" width="140" height="70">
-                
+        <div class="box">
+            <div class="content">
+                <span> May 2022 - Jul 2022 </span>
+                <h3>Software R&D Engineer</h3>
+                <h4>Keysight Technologies: Automation of Black Box Testing Project</h4>
+                <p>- Automated workflows of In-Circuit testing for their i3070 machines</p>
+                <p>- Programmed test automation scripts based on required test plans to ensure product meets internal quality requirements</p>
+                <p>- Concurrently managed 2nd Project on `FPGA Design and Board Test` to replace an old Integrated Circuit 
+                    (IC) while ensuring specifications of the new IC is suitable using an oscilloscope </p>   
             </div>
-            <div class="Educolumn2">
-                <p class = "Edu_Name">SMV Marketing Group</p>
-                <p class = "Edu_Title">Sales Ambassador</p>
-                <p class = "Edu_Year">Jan 2018 - Mar 2018</p>
+        </div>
+        <!-- <div class="box">
+            <div class="content">
+                <span> 2017 - 2018 </span>
+                <h3>front-end development</h3>
+                <h4>front-end development</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae vel quasi consectetur expedita ipsam similique maiores ipsa? Error, debitis ullam.</p>
             </div>
-            <br><br>
-            <p class = "WhoamI_words">My current interest lies towards 3p</p>
+        </div> -->
+
+        <!-- <div class="box">
+            <div class="content">
+                <span> 2018 - 2019 </span>
+                <h3>front-end development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae vel quasi consectetur expedita ipsam similique maiores ipsa? Error, debitis ullam.</p>
+            </div>
         </div>
 
+        <div class="box">
+            <div class="content">
+                <span> 2019 - 2020 </span>
+                <h3>front-end development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae vel quasi consectetur expedita ipsam similique maiores ipsa? Error, debitis ullam.</p>
+            </div>
+        </div>
 
-
-
-    </div>
-
-    <div id="Projects" class = "FourthPage">
-        <br>
-        <h2>Projects</h2>
-
-
-
-
-    </div>
-
-    <div id="CCA" class = "FifthPage">
-        <br>
-        <h2>Co-Curricular Activities</h2>
-
-
-
+        <div class="box">
+            <div class="content">
+                <span> 2020 - 2021 </span>
+                <h3>front-end development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae vel quasi consectetur expedita ipsam similique maiores ipsa? Error, debitis ullam.</p>
+            </div>
+        </div> -->
 
     </div>
 
-    <div id="Awards_and_Honors" class = "SixthPage">
-        <br>
-        <h2>Awards and Honors</h2>  
+    <div class="box-container">
+        <img src="images/Tampines_Junior_College_Logo-removebg-preview.png" width ="150" height="150" padding="10px" alt="">
+        <img src="images/Tampines_Junior_College_Logo-removebg-preview.png" width ="150" height="150" padding="10px" alt="">
+    </div>
+</section>
 
+<!-- experience section ends -->
 
+<!-- portfolio section starts  -->
 
+<section class="service" id="portfolio">
+
+    <h1 class="heading"> <span> my </span> portfolio </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/Telegram_Bot.jpg" width ="160" height="160" alt="">
+            <h3>Laundry Telegram Bot</h3>
+            <h4>Project Lead and Software Developer</h4>
+            <p>- Initiated and developed a laundry Telegram bot utilising Python programming and hosted it on Heroku Serverless Cloud</p>
+            <p>- End-to-End Development included iterations of testing to optimisation, resulting in 24/7 live updates of laundry machines</p>
+            <p>- Reduced inefficiencies for 120 residents in NUS College of Alice and Peter Tan</p>
+            <p>- Collected positive feedback from 30 residents who highlighted an average save of 3-4 times climbing stairs, equating to 1 hour spent on doing laundry weekly</p>
+        </div>
+
+        <div class="box">
+            <img src="images/Wheel_Me_No_More.jpg" width ="120" height="146" alt="">
+            <h3>NUS EG2301: Wheel-Me-No-More</h3>
+            <h4>Product Designer</h4>
+            <p>- Invented and fabricated a modified 3D wheelchair to improve the safety of wheelchair users moving downslope</p>
+            <p>- Utilised the rack and pinion mechanism to shift the wheelchair`s centre of gravity, reducing the likelihood of it tilting forward </p>
+            <p>- Recognised and awarded an A+ grade for this module</p>
+        </div>
+
+        <div class="box">
+            <img src="images/EG2310_edited.png" width ="150" height="150" alt="">
+            <h3>NUS EG2310: Autonomous Robot System</h3>
+            <h4>Electrical Circuit Designer and Programmer</h4>
+            <p>- Built a TurtleBot3, operating on ROS, that can autonomously navigate and map through a maze</p>
+            <p>- Independently identified, aimed and fired a ping pong ball projectile at a thermal target </p>
+            <p>- Designed electrical circuits and programmed coding firing mechanism on Linus OS</p>
+        </div>
+
+        <div class="box">
+            <img src="images/Tampines_Junior_College_Logo-removebg-preview.png" width ="150" height="150" alt="">
+            <h3>Tampines Junior College</h3>
+            <h4>A Level</h4>
+            <p>Physics, Chemistry, Math, Economics</p>
+        </div>
+
+    </div>
+    <!-- <div class="box-container">
+
+        <div class="box">
+            <img src="images/img-1.jpg" alt="">
+            <h3> project 01 </h3>
+            <div class="icons">
+                <a href="#" class="fas fa-link"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/img-2.jpg" alt="">
+            <h3> project 02 </h3>
+            <div class="icons">
+                <a href="#" class="fas fa-link"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Telegram_Bot.jpg" alt="">
+            <h3> Laundry Telegram Bot </h3>
+            <div class="icons">
+                <a href="#" class="fas fa-link"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/img-4.jpg" alt="">
+            <h3> project 04 </h3>
+            <div class="icons">
+                <a href="#" class="fas fa-link"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/img-5.jpg" alt="">
+            <h3> project 05 </h3>
+            <div class="icons">
+                <a href="#" class="fas fa-link"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/img-6.jpg" alt="">
+            <h3> project 06 </h3>
+            <div class="icons">
+                <a href="#" class="fas fa-link"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+        </div>
+
+    </div> -->
+
+</section>
+
+<!-- portfolio section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> contact <span> me </span> </h1>
+
+    <div class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <h3>my email</h3>
+            <p>shaikhanas@gmail.com</p>
+            <p>anasbhai@gmail.com</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-phone"></i>
+            <h3>my number</h3>
+            <p>+123-456-7890</p>
+            <p>+111-222-3333</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>my address</h3>
+            <p>ajis class, jogeshwaris west, mumbai, india - 400104</p>
+        </div>
 
     </div>
 
-    <div id="Certification" class = "SeventhPage">
-        <br>
-        <h2>Certification</h2>
+    <div class="row">
 
+        <form action="">
 
+            <input type="text" placeholder="name" class="box">
+            <input type="email" placeholder="email" class="box">
+            <input type="number" placeholder="number" class="box">
 
+            <textarea name="" placeholder="message" id="" cols="30" rows="10"></textarea>
 
-    </div>
-    <div id="Proficiencies" class = "EighthPage">
-        <br>
-        <h2>Proficiencies</h2>
+            <input type="submit" class="btn" value="send message">
 
+        </form>
 
-
-
-    </div>
-
-    <div class = "NinethPage">
-        
-
-
-
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1625069635379!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
 
     </div>
 
-          
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section  -->
+<footer class="footer"> created by <span> mr. web designer </span> | all rights reserved! </footer>
 
 
 
 
-        <!-- Load external JavaScript -->
-        <script src="scripts.js"></script>
-        
-    </body>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
 </html>

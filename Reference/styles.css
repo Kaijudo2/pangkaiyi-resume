@@ -1,0 +1,398 @@
+/* Global Settings */
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(255, 0, 0);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+body{
+    margin:0px;
+    padding:0px;
+    width: 100%;
+    height: 100%;
+}
+
+/* @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  } */
+
+h1 {
+    text-align: right;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    font-size: 120px;
+    color: black;
+    top:100px;
+    margin-right:10%;
+    padding:0px;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color: black;
+}
+
+h3 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: black;
+}
+
+/* Created Class */
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+
+.EE {
+    text-align: right;
+    margin-top:-10%;
+    margin-right:10%;
+    padding:0px;
+    font-size: 40px;
+    font-style: italic;
+    position: relative;
+
+}
+
+.Navbar{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    font-size: 14.5px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #E2FCEF;
+    z-index: 1;
+}
+
+.QuickAccess {
+    float: left;
+    margin-left:1%;
+    font-size: 20px;
+    padding:0px;
+}
+
+.Google_Drive {
+    float: right;
+    margin-right:1%;
+    font-size: 20px;
+    margin-bottom:1%;
+}
+
+.Linkedin {
+    float: right;
+    margin-right:1%;
+    font-size: 20px;
+}
+
+.Mail {
+    float: right;
+    margin-right:1%;
+    font-size: 20px;
+}
+
+.Resume {
+    float: right;
+    margin-right:1%;
+    font-size: 20px;
+}
+
+li a {
+  /* display: block; */
+  margin: 0px;
+  padding: 5px;
+  background-color: #E2FCEF;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    margin-left: 7%;
+}
+
+.column2 {
+    float: right;
+    margin-top:5%;
+    width: 50%;
+    margin-right:1%;
+}
+
+/* Education */
+.Edu_Name {
+    position: relative;
+    width:auto;
+    text-align: left;
+    margin-bottom:0%;
+    margin-top:0%;
+    margin-right:0%;
+    margin-left: 0%;
+    padding:0px;
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+
+.Edu_Title {
+    text-align: left;
+    margin-bottom:0%;
+    margin-top:0%;
+    margin-right:0%;
+    margin-left: 0%;
+    padding:0px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+    position: relative;
+
+}
+
+.Edu_Year {
+    position: relative;
+    text-align: left;
+    margin-bottom:0%;
+    margin-top:0%;
+    margin-right:0%;
+    padding:0px;
+    font-size: 20px;
+    font-weight: normal;
+    
+
+}
+
+.Educolumn1 {
+    text-align: right;
+    width: auto;
+    margin-left: 0%;
+    margin-bottom:0%;
+    margin-top:0%;
+    margin-right:60%;
+    
+}
+
+.Educolumn2 {
+    /* text-align: right; */
+    width: 50%;
+    margin-left: 41%;
+    margin-bottom:0%;
+    margin-top:-7%;
+    margin-right:0%;
+}
+  
+  /* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.WhoamI{
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.WhoamI_words{
+    margin: 15px 200px 15px 200px;
+    font-size: 20px;
+}
+
+/* Pictures */
+.pic_NUS{
+    position: relative;
+    width:auto;
+    padding:0px;
+    /* border: 3px solid #73AD21; */
+}
+
+.pic_IDP{
+    position: relative;
+}
+
+.pic_CAPT{
+    position: relative;
+    width:auto;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding:0px;
+    /* border: 3px solid #73AD21; */
+}
+
+.pic_Keysight{
+    position: relative;
+    width:auto;
+    margin-right: 2%;
+    margin-bottom:2%;
+    padding:0px;
+}
+
+.pic_Skilio{
+    position: relative;
+    width:auto;
+    margin-left: 0%;
+    margin-right: -3%;
+    padding:0px;
+}
+
+.pic_SMV{
+    position: relative;
+    width:auto;
+    margin-right: 2%;
+    margin-bottom:5%;
+    padding:0px;
+}
+
+/* Pages */
+.FirstPage{
+    background-color: #e2fcef;
+    opacity:0.8;
+    margin:0px;
+    padding:0px;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+
+.SecondPage{
+    background-color: #e2e2fc;
+    /* margin:0px;
+    padding:0px; */
+    width: 100%;
+    height: 100%;
+}
+
+.ThirdPage{
+    background-color: #fce2ef;
+    margin:0px;
+    padding:0px;
+    width: 100%;
+    height: 100%;
+}
+
+.FourthPage{
+    background-color: #fcfce2;
+    margin:0px;
+    padding:0px;
+    width: 100%;
+    height: 100%;
+}
+
+.FifthPage{
+    background-color: #e2fcef;
+    margin:0px;
+    padding:0px;
+    width: 100%;
+    height: 100%;
+}
+
+.SixthPage{
+    background-color: #e2e2fc;
+    margin:0px;
+    padding:0px;
+    width: 100%;
+    height: 100%;
+}
+
+.SeventhPage{
+    background-color: #fce2ef;
+    margin:0px;
+    padding:0px;
+    width: 100%;
+    height: 100%;
+}
+
+.EighthPage{
+    background-color:#fcfce2;
+    margin:0px;
+    padding:0px;
+    width: 100%;
+    height: 100%;
+}
+
+.NinethPage{
+    background-color: #e2fcef;
+    margin:0px;
+    padding:0px;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* media queries  */
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+    
+    body{
+        padding: 0;
+    }
+
+    #menu-bars{
+        display: initial;
+    }
+
+    header{
+        left:-120%;
+    }
+
+    header.active{
+        left:0%;
+    }
+
+    .cursor-1,
+    .cursor-2{
+        display: none;
+    }
+
+}
+
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+
+    header{
+        width:100%;
+    }
+
+    .experience .box-container .box{
+        padding-right: 0;
+    }
+
+}
