@@ -461,7 +461,7 @@ header .follow a:hover{
     width:75%;
 }
 
-.portfolio .box-container .box video{
+/* .portfolio .box-container .box video{
     height:100%;
     width:100%;
     object-fit: cover;
@@ -473,7 +473,7 @@ header .follow a:hover{
 .portfolio .box-container .box:hover video{
     height:75%;
     width:75%;
-}
+} */
 
 .portfolio .box-container .box h3{
     position: absolute;
