@@ -412,11 +412,13 @@ header .follow a:hover{
 .experience .box-container .GICT{
     width:600px; 
     height:450px;
+    margin-left: 22%;
 }
 
 .experience .box-container .Ads{
     width:600px;
     height:800px;
+    margin-left: 22%;
 }
 
 .experience .box-container img{
