@@ -338,6 +338,16 @@ header .follow a:hover{
     gap:1.5rem;
 }
 
+.service .box-container .box .Mortician{
+    width:620px;
+    height:400px;
+}
+
+.service .box-container .box .Arts_Showcase{
+    width:620px;
+    height:400px; 
+}
+
 .service .box-container .box .btn2{
     display: inline-block;
     margin-top: 1rem;
@@ -412,13 +422,13 @@ header .follow a:hover{
 .experience .box-container .GICT{
     width:600px; 
     height:450px;
-    margin-left: 22%;
+    margin-left: 25%;
 }
 
 .experience .box-container .Ads{
     width:600px;
     height:800px;
-    margin-left: 22%;
+    margin-left: 25%;
 }
 
 .experience .box-container img{
@@ -426,15 +436,15 @@ header .follow a:hover{
 }
 
 .experience .box-container .image{
-    margin-left: 40%;
+    margin-left: 45%;
 }
 
 .experience .box-container .image2{
-    margin-left: 22%;
+    margin-left: 25%;
 }
 
 .experience .box-container .image3{
-    margin-left: 22%;
+    margin-left: 25%;
 }
 
 .experience .box-container .box{
@@ -576,8 +586,9 @@ header .follow a:hover{
 }
 
 .contact .row .testimonial{
-    width:500px;
-    height:650px;
+    margin-left: 10%;
+    width:650px;
+    height:820px;
 }
 
 
@@ -757,7 +768,7 @@ header .follow a:hover{
     .experience .box-container .image3{
         margin-left: 0px;
         width:200px;
-        height:400px;
+        height:320px;
     }
 
     .experience .box-container .GICT{
@@ -773,9 +784,21 @@ header .follow a:hover{
     }
 
     .contact .row .testimonial{
+        margin-left:0%;
         width:330px;
         height:429px;
     }
+
+    .service .box-container .box .Arts_Showcase{
+        width:320px;
+        height:190px; 
+    }
+
+    .service .box-container .box .Mortician{
+        width:320px;
+        height:232.5px;
+    }
+
 }
 
 @media (max-width:450px){
@@ -796,7 +819,5 @@ header .follow a:hover{
         width:200px;
         height:110px;
     }
-
-    
 
 }
