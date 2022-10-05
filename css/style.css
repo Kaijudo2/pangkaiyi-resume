@@ -433,6 +433,10 @@ header .follow a:hover{
     margin-left: 22%;
 }
 
+.experience .box-container .image3{
+    margin-left: 22%;
+}
+
 .experience .box-container .box{
     position: relative;
     flex:1 1 33rem;
@@ -750,14 +754,22 @@ header .follow a:hover{
         height:200px;
     }
 
+    .experience .box-container .image3{
+        margin-left: 0px;
+        width:200px;
+        height:400px;
+    }
+
     .experience .box-container .GICT{
         width:330px;
         height:280px;
+        margin-left: 0px;
     }
 
     .experience .box-container .Ads{
         width:330px;
         height:450px;
+        margin-left: 0px;
     }
 
     .contact .row .testimonial{
