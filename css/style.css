@@ -291,11 +291,11 @@ header .follow a:hover{
 }
 
 .about .row-2 .skills .progress:nth-child(1) .bar span{
-    width:95%;
+    width:85%;
 }
 
 .about .row-2 .skills .progress:nth-child(2) .bar span{
-    width:70%;
+    width:90%;
 }
 
 .about .row-2 .skills .progress:nth-child(3) .bar span{
@@ -420,15 +420,9 @@ header .follow a:hover{
 } */
 
 .experience .box-container .GICT{
-    width:600px; 
-    height:450px;
-    margin-left: 25%;
-}
-
-.experience .box-container .Ads{
-    width:600px;
-    height:800px;
-    margin-left: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .experience .box-container img{
@@ -436,15 +430,9 @@ header .follow a:hover{
 }
 
 .experience .box-container .image{
-    margin-left: 40%;
-}
-
-.experience .box-container .image2{
-    margin-left: 36%;
-}
-
-.experience .box-container .image3{
-    margin-left: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .experience .box-container .box{
@@ -586,17 +574,11 @@ header .follow a:hover{
 }
 
 .contact .row .testimonial{
-    margin-left: 10%;
-    width:650px;
-    height:820px;
-}
-
-
-.contact .column2{
-    display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    display: block;
+    width:650px;
+    height:820px;
 }
 
 .contact .icons-container{
@@ -746,47 +728,6 @@ header .follow a:hover{
     .cursor-1,
     .cursor-2{
         display: none;
-    }
-
-    .contact .column2{
-        display: block;
-        margin-left: 0;
-        margin-right: 0;
-        float:left;
-    }
-
-    .experience .box-container .image{
-        margin-left: 0px;
-    }
-    
-    .experience .box-container .image2{
-        margin-left: 0px;
-        width:230px;
-        height:200px;
-    }
-
-    .experience .box-container .image3{
-        margin-left: 0px;
-        width:200px;
-        height:320px;
-    }
-
-    .experience .box-container .GICT{
-        width:330px;
-        height:280px;
-        margin-left: 0px;
-    }
-
-    .experience .box-container .Ads{
-        width:330px;
-        height:450px;
-        margin-left: 0px;
-    }
-
-    .contact .row .testimonial{
-        margin-left:0%;
-        width:330px;
-        height:429px;
     }
 
     .service .box-container .box .Arts_Showcase{
